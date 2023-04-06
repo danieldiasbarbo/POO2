@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Personagem
+comment1.params=pulo
+comment1.target=void\ setPulo(Pulo)
+comment2.params=corrida
+comment2.target=void\ setCorrida(Corrida)
+comment3.params=ataque
+comment3.target=void\ setAtaque(Ataque)
+numComments=4
