@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=State
+comment1.params=personagem
+comment1.target=State(Personagem)
+comment2.params=corrida
+comment2.target=void\ setCorrida(Corrida)
+comment3.params=ataque
+comment3.target=void\ setAtaque(Ataque)
+comment4.params=
+comment4.target=Personagem\ getPersonagem()
+comment5.params=dano
+comment5.target=void\ sofreuAtaque(java.lang.Integer)
+comment6.params=cura
+comment6.target=void\ coletouRecompensa(java.lang.Integer)
+comment7.params=
+comment7.target=void\ handler()
+numComments=8
