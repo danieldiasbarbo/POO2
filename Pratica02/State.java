@@ -1,0 +1,36 @@
+package Pratica02;
+
+public abstract class State
+{
+    private Pulo pulo;
+    private Corrida corrida;
+    private Ataque ataque;
+    private Personagem personagem;
+    
+    public State(Personagem personagem){
+        this.personagem = personagem;  
+    }
+    
+    public void setCorrida(Corrida corrida){
+        this.corrida = corrida;
+    }
+    
+    public void setAtaque(Ataque ataque){
+        this.ataque = ataque;
+    }
+
+    public Personagem getPersonagem(){
+        return this.personagem;
+    }
+    
+    public void sofreuAtaque(Integer dano){
+        this.personagem.setVida(this.personagem.getVida() - dano);
+        this.handler();
+    }
+    
+    public void coletouRecompensa(Integer cura){
+        this.personagem.setVida(this.personagem.getVida() + cura);
+        this.handler();
+    }
+    protected abstract void handler(); //fica o  estado
+}
