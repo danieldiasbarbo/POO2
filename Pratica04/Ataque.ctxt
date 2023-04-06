@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Ataque
+comment1.params=
+comment1.target=Ataque()
+comment2.params=
+comment2.target=java.lang.Integer\ atacar()
+comment3.params=dano
+comment3.target=void\ setDano(java.lang.Integer)
+comment4.params=
+comment4.target=java.lang.Integer\ getDano()
+numComments=5

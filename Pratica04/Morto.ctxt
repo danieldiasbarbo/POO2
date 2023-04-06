@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Morto
+comment1.params=personagem
+comment1.target=Morto(Pratica03.Personagem)
+comment2.params=
+comment2.target=void\ handler()
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4

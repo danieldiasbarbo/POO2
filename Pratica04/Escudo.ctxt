@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Escudo
+comment1.params=defesa
+comment1.target=Escudo(java.lang.Integer)
+comment2.params=escudo
+comment2.target=void\ setSucessor(Escudo)
+comment3.params=dano
+comment3.target=java.lang.Integer\ processaEscudo(java.lang.Integer)
+numComments=4
