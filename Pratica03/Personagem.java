@@ -1,15 +1,34 @@
-package Pratica02;
+package Pratica03;
 
 public abstract class Personagem 
 {
     private Pulo pulo;
     private State estado;
     private Integer vida;
-        
+    private Escudo escudo;
+    
+    
+    public Personagem(){
+        this.escudo = new Escudo(0);
+        this.vida = 70;
+    }
+    
+    
+    
+    public void adicionaEscudo(Escudo escudo){
+        escudo.setSucessor(this.escudo);
+        this.escudo = escudo;
+    }
+    
     public void setPulo(Pulo pulo){
         this.pulo = pulo;
         this.estado = new Forte(this);
         this.vida = 70;
+    }
+    
+    public void processaDano(Integer dano){
+        Integer danoFinal = escudo.processaEscudo(dano);
+        this.setVida(this.getVida() - danoFinal);
     }
     
     public State getEstado(){
